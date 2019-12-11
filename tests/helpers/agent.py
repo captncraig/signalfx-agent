@@ -3,6 +3,7 @@ import subprocess
 import tempfile
 from contextlib import contextmanager
 
+import psutil
 import yaml
 from tests.paths import AGENT_BIN
 
@@ -111,6 +112,7 @@ class Agent:
             try:
                 yield
             finally:
+                assert psutil.pid_exists(pid), f"agent pid {self.pid} died unexpectedly:\n{self.get_output()}"
                 print("\nAgent output:")
                 print_lines(self.get_output())
                 if self.debug:

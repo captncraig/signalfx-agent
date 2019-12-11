@@ -5,6 +5,7 @@ import random
 import re
 import socket
 import subprocess
+import sys
 import tarfile
 import threading
 import time
@@ -156,9 +157,12 @@ get_unique_localhost.counter = 0
 @contextmanager
 def run_subprocess(command: List[str], env: Dict[any, any] = None, **kwargs):
     # subprocess on Windows has a bug where it doesn't like Path.
-    proc = subprocess.Popen(
-        [str(c) for c in command], env=env, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, **kwargs
-    )
+    try:
+        proc = subprocess.Popen(
+            [str(c) for c in command], env=env, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, **kwargs
+        )
+    except OSError as e:
+        sys.stderr.write(f"{e}\n")
 
     get_output = pull_from_reader_in_background(proc.stdout)
 
