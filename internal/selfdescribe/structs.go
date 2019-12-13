@@ -1,7 +1,6 @@
 package selfdescribe
 
 import (
-	"fmt"
 	"reflect"
 	"strings"
 )
@@ -46,7 +45,6 @@ func getStructMetadata(typ reflect.Type) structMetadata {
 			continue
 		}
 
-		fmt.Println("!!!!!!!", packageDir, structName, f.Name)
 		fm := fieldMetadata{
 			YAMLName: yamlName,
 			Doc:      structFieldDocs(packageDir, structName)[f.Name],
