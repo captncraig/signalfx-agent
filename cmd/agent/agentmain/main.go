@@ -1,3 +1,5 @@
+// Package agentmain is the main code for the signalfx-agent, packaged as an importable package for convenience.
+// agentmain.Main() is the primary entry point, and is expected to be the first and only call from the main package.
 package agentmain
 
 import (
