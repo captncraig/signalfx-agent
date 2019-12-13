@@ -1,4 +1,4 @@
-package main
+package agentmain
 
 import (
 	"context"
@@ -221,7 +221,7 @@ func runAgent(flags *flags, interruptCh chan os.Signal, exit chan struct{}) {
 	<-exit
 }
 
-func main() {
+func Main() {
 	setVersionEnvvar()
 	setCollectdVersionEnvvar()
 
