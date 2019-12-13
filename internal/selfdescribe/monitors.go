@@ -23,7 +23,7 @@ func monitorsStructMetadata() []monitorDoc {
 	// Set to track undocumented monitors
 	monTypesSeen := map[string]bool{}
 
-	if packages, err := CollectMetadata("internal/monitors"); err != nil {
+	if packages, err := CollectMetadata("pkg/monitors"); err != nil {
 		log.Fatal(err)
 	} else {
 		for _, pkg := range packages {
