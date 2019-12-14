@@ -8,10 +8,10 @@ import (
 
 	"github.com/signalfx/golib/v3/datapoint"
 	"github.com/signalfx/golib/v3/sfxclient"
-	"github.com/signalfx/signalfx-agent/internal/core/config"
-	"github.com/signalfx/signalfx-agent/internal/core/services"
-	"github.com/signalfx/signalfx-agent/internal/monitors/kubernetes/leadership"
-	"github.com/signalfx/signalfx-agent/internal/utils"
+	"github.com/signalfx/signalfx-agent/pkg/core/config"
+	"github.com/signalfx/signalfx-agent/pkg/core/services"
+	"github.com/signalfx/signalfx-agent/pkg/monitors/kubernetes/leadership"
+	"github.com/signalfx/signalfx-agent/pkg/utils"
 )
 
 const maxLineLength = 120

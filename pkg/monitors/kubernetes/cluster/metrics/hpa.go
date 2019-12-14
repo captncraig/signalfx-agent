@@ -5,10 +5,10 @@ import (
 	"time"
 
 	"github.com/signalfx/golib/v3/datapoint"
-	"github.com/signalfx/signalfx-agent/internal/monitors/kubernetes/cluster/meta"
-	k8sutils "github.com/signalfx/signalfx-agent/internal/monitors/kubernetes/utils"
-	"github.com/signalfx/signalfx-agent/internal/monitors/types"
-	"github.com/signalfx/signalfx-agent/internal/utils"
+	"github.com/signalfx/signalfx-agent/pkg/monitors/kubernetes/cluster/meta"
+	k8sutils "github.com/signalfx/signalfx-agent/pkg/monitors/kubernetes/utils"
+	"github.com/signalfx/signalfx-agent/pkg/monitors/types"
+	"github.com/signalfx/signalfx-agent/pkg/utils"
 	"k8s.io/api/autoscaling/v2beta1"
 	v1 "k8s.io/api/core/v1"
 )

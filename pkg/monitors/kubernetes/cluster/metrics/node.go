@@ -8,8 +8,8 @@ import (
 
 	"github.com/signalfx/golib/v3/datapoint"
 	"github.com/signalfx/golib/v3/sfxclient"
-	k8sutil "github.com/signalfx/signalfx-agent/internal/monitors/kubernetes/utils"
-	atypes "github.com/signalfx/signalfx-agent/internal/monitors/types"
+	k8sutil "github.com/signalfx/signalfx-agent/pkg/monitors/kubernetes/utils"
+	atypes "github.com/signalfx/signalfx-agent/pkg/monitors/types"
 	v1 "k8s.io/api/core/v1"
 )
 

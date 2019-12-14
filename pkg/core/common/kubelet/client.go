@@ -12,7 +12,7 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/signalfx/signalfx-agent/internal/core/common/auth"
+	"github.com/signalfx/signalfx-agent/pkg/core/common/auth"
 	log "github.com/sirupsen/logrus"
 )
 

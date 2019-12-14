@@ -5,7 +5,7 @@ import (
 	"context"
 
 	"github.com/gobwas/glob"
-	"github.com/signalfx/signalfx-agent/internal/core/config/types"
+	"github.com/signalfx/signalfx-agent/pkg/core/config/types"
 	log "github.com/sirupsen/logrus"
 	"go.etcd.io/etcd/client"
 )

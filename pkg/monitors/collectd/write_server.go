@@ -14,7 +14,7 @@ import (
 	collectdformat "github.com/signalfx/gateway/protocol/collectd/format"
 	"github.com/signalfx/golib/v3/datapoint"
 	"github.com/signalfx/golib/v3/event"
-	"github.com/signalfx/signalfx-agent/internal/utils/collectdutil"
+	"github.com/signalfx/signalfx-agent/pkg/utils/collectdutil"
 )
 
 // WriteHTTPServer is a reimplementation of what the metricproxy collectd

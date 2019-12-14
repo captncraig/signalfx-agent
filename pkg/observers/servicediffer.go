@@ -3,7 +3,7 @@ package observers
 import (
 	"time"
 
-	"github.com/signalfx/signalfx-agent/internal/core/services"
+	"github.com/signalfx/signalfx-agent/pkg/core/services"
 	log "github.com/sirupsen/logrus"
 )
 

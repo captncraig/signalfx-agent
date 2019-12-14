@@ -4,7 +4,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/signalfx/signalfx-agent/internal/core/common/constants"
+	"github.com/signalfx/signalfx-agent/pkg/core/common/constants"
 )
 
 // MakePythonPluginPath takes file path components below the BundleDir for

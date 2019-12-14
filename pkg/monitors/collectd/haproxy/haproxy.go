@@ -6,13 +6,13 @@ import (
 	"strings"
 
 	"github.com/signalfx/golib/v3/pointer"
-	"github.com/signalfx/signalfx-agent/internal/monitors/collectd"
+	"github.com/signalfx/signalfx-agent/pkg/monitors/collectd"
 
-	"github.com/signalfx/signalfx-agent/internal/core/config"
+	"github.com/signalfx/signalfx-agent/pkg/core/config"
 
-	"github.com/signalfx/signalfx-agent/internal/monitors"
-	"github.com/signalfx/signalfx-agent/internal/monitors/collectd/python"
-	"github.com/signalfx/signalfx-agent/internal/monitors/subproc"
+	"github.com/signalfx/signalfx-agent/pkg/monitors"
+	"github.com/signalfx/signalfx-agent/pkg/monitors/collectd/python"
+	"github.com/signalfx/signalfx-agent/pkg/monitors/subproc"
 )
 
 func init() {

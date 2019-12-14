@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/signalfx/signalfx-agent/internal/neotest"
+	"github.com/signalfx/signalfx-agent/pkg/neotest"
 	"github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"
 )

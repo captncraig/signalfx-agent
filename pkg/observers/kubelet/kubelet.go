@@ -10,11 +10,11 @@ import (
 	"github.com/sirupsen/logrus"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/signalfx/signalfx-agent/internal/core/common/kubelet"
-	"github.com/signalfx/signalfx-agent/internal/core/config"
-	"github.com/signalfx/signalfx-agent/internal/core/services"
-	"github.com/signalfx/signalfx-agent/internal/observers"
-	"github.com/signalfx/signalfx-agent/internal/utils"
+	"github.com/signalfx/signalfx-agent/pkg/core/common/kubelet"
+	"github.com/signalfx/signalfx-agent/pkg/core/config"
+	"github.com/signalfx/signalfx-agent/pkg/core/services"
+	"github.com/signalfx/signalfx-agent/pkg/observers"
+	"github.com/signalfx/signalfx-agent/pkg/utils"
 )
 
 // phase is the pod's phase

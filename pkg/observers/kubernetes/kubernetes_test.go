@@ -10,13 +10,13 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/types"
 
-	"github.com/signalfx/signalfx-agent/internal/core/common/kubernetes"
-	"github.com/signalfx/signalfx-agent/internal/core/services"
-	"github.com/signalfx/signalfx-agent/internal/observers"
+	"github.com/signalfx/signalfx-agent/pkg/core/common/kubernetes"
+	"github.com/signalfx/signalfx-agent/pkg/core/services"
+	"github.com/signalfx/signalfx-agent/pkg/observers"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	. "github.com/signalfx/signalfx-agent/internal/neotest/k8s/testhelpers/fakek8s"
+	. "github.com/signalfx/signalfx-agent/pkg/neotest/k8s/testhelpers/fakek8s"
 )
 
 var _ = Describe("Kubernetes Observer", func() {

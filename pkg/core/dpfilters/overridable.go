@@ -4,7 +4,7 @@ import (
 	"errors"
 
 	"github.com/signalfx/golib/v3/datapoint"
-	"github.com/signalfx/signalfx-agent/internal/utils/filter"
+	"github.com/signalfx/signalfx-agent/pkg/utils/filter"
 )
 
 type overridableDatapointFilter struct {

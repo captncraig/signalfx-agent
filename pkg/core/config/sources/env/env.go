@@ -3,7 +3,7 @@ package env
 import (
 	"os"
 
-	"github.com/signalfx/signalfx-agent/internal/core/config/types"
+	"github.com/signalfx/signalfx-agent/pkg/core/config/types"
 )
 
 // Config for the file-based config source

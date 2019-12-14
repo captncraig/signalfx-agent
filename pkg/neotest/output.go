@@ -6,8 +6,8 @@ import (
 	"github.com/signalfx/golib/v3/datapoint"
 	"github.com/signalfx/golib/v3/event"
 	"github.com/signalfx/golib/v3/trace"
-	"github.com/signalfx/signalfx-agent/internal/core/dpfilters"
-	"github.com/signalfx/signalfx-agent/internal/monitors/types"
+	"github.com/signalfx/signalfx-agent/pkg/core/dpfilters"
+	"github.com/signalfx/signalfx-agent/pkg/monitors/types"
 )
 
 // TestOutput can be used in place of the normal monitor outut to provide a

@@ -8,7 +8,7 @@ import (
 	"github.com/signalfx/golib/v3/datapoint"
 	"github.com/signalfx/golib/v3/pointer"
 	"github.com/signalfx/golib/v3/trace"
-	"github.com/signalfx/signalfx-agent/internal/neotest"
+	"github.com/signalfx/signalfx-agent/pkg/neotest"
 	"github.com/stretchr/testify/assert"
 )
 

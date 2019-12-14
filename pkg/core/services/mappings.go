@@ -1,8 +1,8 @@
 package services
 
 import (
-	"github.com/signalfx/signalfx-agent/internal/core/config"
-	"github.com/signalfx/signalfx-agent/internal/utils"
+	"github.com/signalfx/signalfx-agent/pkg/core/config"
+	"github.com/signalfx/signalfx-agent/pkg/utils"
 )
 
 // ConfigEndpointMapping creates a mapping between a config key and a value

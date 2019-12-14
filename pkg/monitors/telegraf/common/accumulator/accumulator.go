@@ -5,7 +5,7 @@ import (
 
 	"github.com/influxdata/telegraf"
 	"github.com/influxdata/telegraf/metric"
-	"github.com/signalfx/signalfx-agent/internal/monitors/telegraf/common/emitter"
+	"github.com/signalfx/signalfx-agent/pkg/monitors/telegraf/common/emitter"
 )
 
 func getTime(times []time.Time) time.Time {

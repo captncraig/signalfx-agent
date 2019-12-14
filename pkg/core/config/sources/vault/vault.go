@@ -11,8 +11,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/signalfx/signalfx-agent/internal/core/config/sources/vault/auth"
-	"github.com/signalfx/signalfx-agent/internal/core/config/types"
+	"github.com/signalfx/signalfx-agent/pkg/core/config/sources/vault/auth"
+	"github.com/signalfx/signalfx-agent/pkg/core/config/types"
 	"github.com/sirupsen/logrus"
 	log "github.com/sirupsen/logrus"
 

@@ -8,8 +8,8 @@ import (
 
 	"k8s.io/client-go/rest"
 
-	"github.com/signalfx/signalfx-agent/internal/monitors/kubernetes/cluster/metrics"
-	"github.com/signalfx/signalfx-agent/internal/utils/k8sutil"
+	"github.com/signalfx/signalfx-agent/pkg/monitors/kubernetes/cluster/metrics"
+	"github.com/signalfx/signalfx-agent/pkg/utils/k8sutil"
 	log "github.com/sirupsen/logrus"
 
 	quota "github.com/openshift/api/quota/v1"

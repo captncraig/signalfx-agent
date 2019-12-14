@@ -1,6 +1,6 @@
 package types
 
-import "github.com/signalfx/signalfx-agent/internal/core/config/validation"
+import "github.com/signalfx/signalfx-agent/pkg/core/config/validation"
 
 // ConfigSourceConfig is a config type for a ConfigSource.  It can make new
 // ConfigSource instances.

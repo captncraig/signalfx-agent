@@ -10,8 +10,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/signalfx/signalfx-agent/internal/core/services"
-	"github.com/signalfx/signalfx-agent/internal/observers"
+	"github.com/signalfx/signalfx-agent/pkg/core/services"
+	"github.com/signalfx/signalfx-agent/pkg/observers"
 	"github.com/stretchr/testify/require"
 )
 

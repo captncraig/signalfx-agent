@@ -10,11 +10,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/signalfx/signalfx-agent/internal/core/common/ecs"
-	"github.com/signalfx/signalfx-agent/internal/core/config"
-	"github.com/signalfx/signalfx-agent/internal/core/services"
-	"github.com/signalfx/signalfx-agent/internal/observers"
-	"github.com/signalfx/signalfx-agent/internal/observers/docker"
+	"github.com/signalfx/signalfx-agent/pkg/core/common/ecs"
+	"github.com/signalfx/signalfx-agent/pkg/core/config"
+	"github.com/signalfx/signalfx-agent/pkg/core/services"
+	"github.com/signalfx/signalfx-agent/pkg/observers"
+	"github.com/signalfx/signalfx-agent/pkg/observers/docker"
 	log "github.com/sirupsen/logrus"
 )
 

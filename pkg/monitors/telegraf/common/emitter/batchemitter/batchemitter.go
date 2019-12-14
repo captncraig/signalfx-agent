@@ -4,8 +4,8 @@ import (
 	"sync"
 
 	"github.com/influxdata/telegraf"
-	"github.com/signalfx/signalfx-agent/internal/monitors/telegraf/common/emitter/baseemitter"
-	"github.com/signalfx/signalfx-agent/internal/monitors/types"
+	"github.com/signalfx/signalfx-agent/pkg/monitors/telegraf/common/emitter/baseemitter"
+	"github.com/signalfx/signalfx-agent/pkg/monitors/types"
 	log "github.com/sirupsen/logrus"
 )
 

@@ -1,7 +1,7 @@
 package controllermanager
 
 import (
-	"github.com/signalfx/signalfx-agent/internal/monitors/prometheusexporter"
+	"github.com/signalfx/signalfx-agent/pkg/monitors/prometheusexporter"
 )
 
 func init() {

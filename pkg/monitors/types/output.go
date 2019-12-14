@@ -4,7 +4,7 @@ import (
 	"github.com/signalfx/golib/v3/datapoint"
 	"github.com/signalfx/golib/v3/event"
 	"github.com/signalfx/golib/v3/trace"
-	"github.com/signalfx/signalfx-agent/internal/core/dpfilters"
+	"github.com/signalfx/signalfx-agent/pkg/core/dpfilters"
 )
 
 // Output is the interface that monitors should use to send data to the agent

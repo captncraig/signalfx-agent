@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"syscall"
 
-	"github.com/signalfx/signalfx-agent/internal/core/common/constants"
+	"github.com/signalfx/signalfx-agent/pkg/core/common/constants"
 )
 
 // The Linux specific process attribute that make the Python runner be in the

@@ -15,9 +15,9 @@ import (
 	"github.com/sirupsen/logrus"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/signalfx/signalfx-agent/internal/core"
-	"github.com/signalfx/signalfx-agent/internal/core/common/constants"
-	"github.com/signalfx/signalfx-agent/internal/selfdescribe"
+	"github.com/signalfx/signalfx-agent/pkg/core"
+	"github.com/signalfx/signalfx-agent/pkg/core/common/constants"
+	"github.com/signalfx/signalfx-agent/pkg/selfdescribe"
 
 	prefixed "github.com/x-cray/logrus-prefixed-formatter"
 )

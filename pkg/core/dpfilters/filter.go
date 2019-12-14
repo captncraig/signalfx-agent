@@ -5,8 +5,8 @@ package dpfilters
 
 import (
 	"github.com/signalfx/golib/v3/datapoint"
-	"github.com/signalfx/signalfx-agent/internal/core/common/dpmeta"
-	"github.com/signalfx/signalfx-agent/internal/utils/filter"
+	"github.com/signalfx/signalfx-agent/pkg/core/common/dpmeta"
+	"github.com/signalfx/signalfx-agent/pkg/utils/filter"
 )
 
 // DatapointFilter can be used to filter out datapoints

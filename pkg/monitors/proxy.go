@@ -4,7 +4,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/signalfx/signalfx-agent/internal/core/services"
+	"github.com/signalfx/signalfx-agent/pkg/core/services"
 )
 
 func setNoProxyEnvvar(value string) {

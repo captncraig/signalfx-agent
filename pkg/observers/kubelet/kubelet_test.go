@@ -6,11 +6,11 @@ import (
 	"testing"
 
 	"github.com/kr/pretty"
-	"github.com/signalfx/signalfx-agent/internal/core/common/kubelet"
-	"github.com/signalfx/signalfx-agent/internal/core/services"
-	"github.com/signalfx/signalfx-agent/internal/neotest"
-	kubelet_test "github.com/signalfx/signalfx-agent/internal/neotest/kubelet"
-	"github.com/signalfx/signalfx-agent/internal/observers"
+	"github.com/signalfx/signalfx-agent/pkg/core/common/kubelet"
+	"github.com/signalfx/signalfx-agent/pkg/core/services"
+	"github.com/signalfx/signalfx-agent/pkg/neotest"
+	kubelet_test "github.com/signalfx/signalfx-agent/pkg/neotest/kubelet"
+	"github.com/signalfx/signalfx-agent/pkg/observers"
 
 	. "github.com/onsi/gomega"
 )

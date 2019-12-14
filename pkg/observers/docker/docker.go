@@ -13,11 +13,11 @@ import (
 
 	dtypes "github.com/docker/docker/api/types"
 	"github.com/docker/docker/client"
-	dockercommon "github.com/signalfx/signalfx-agent/internal/core/common/docker"
+	dockercommon "github.com/signalfx/signalfx-agent/pkg/core/common/docker"
 
-	"github.com/signalfx/signalfx-agent/internal/core/config"
-	"github.com/signalfx/signalfx-agent/internal/core/services"
-	"github.com/signalfx/signalfx-agent/internal/observers"
+	"github.com/signalfx/signalfx-agent/pkg/core/config"
+	"github.com/signalfx/signalfx-agent/pkg/core/services"
+	"github.com/signalfx/signalfx-agent/pkg/observers"
 )
 
 const (

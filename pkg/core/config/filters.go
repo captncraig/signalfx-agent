@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/signalfx/signalfx-agent/internal/core/dpfilters"
+	"github.com/signalfx/signalfx-agent/pkg/core/dpfilters"
 )
 
 // MetricFilter describes a set of subtractive filters applied to datapoints

@@ -65,7 +65,7 @@ linters-settings:
   settings:
     printf:
       funcs:
-      - (github.com/signalfx/signalfx-agent/internal/utils.ThrottledLogger).ThrottledWarning
+      - (github.com/signalfx/signalfx-agent/pkg/utils.ThrottledLogger).ThrottledWarning
 
 run:
   modules-download-mode: readonly

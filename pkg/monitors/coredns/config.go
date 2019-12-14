@@ -1,6 +1,6 @@
 package coredns
 
-import "github.com/signalfx/signalfx-agent/internal/monitors/prometheusexporter"
+import "github.com/signalfx/signalfx-agent/pkg/monitors/prometheusexporter"
 
 func init() {
 	prometheusexporter.RegisterMonitor(monitorMetadata)

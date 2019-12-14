@@ -5,8 +5,8 @@ import (
 	"time"
 
 	"github.com/mitchellh/hashstructure"
-	"github.com/signalfx/signalfx-agent/internal/core/dpfilters"
-	"github.com/signalfx/signalfx-agent/internal/core/propfilters"
+	"github.com/signalfx/signalfx-agent/pkg/core/dpfilters"
+	"github.com/signalfx/signalfx-agent/pkg/core/propfilters"
 	log "github.com/sirupsen/logrus"
 )
 

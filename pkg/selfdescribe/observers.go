@@ -7,8 +7,8 @@ import (
 	"reflect"
 	"sort"
 
-	"github.com/signalfx/signalfx-agent/internal/core/services"
-	"github.com/signalfx/signalfx-agent/internal/observers"
+	"github.com/signalfx/signalfx-agent/pkg/core/services"
+	"github.com/signalfx/signalfx-agent/pkg/observers"
 	log "github.com/sirupsen/logrus"
 )
 

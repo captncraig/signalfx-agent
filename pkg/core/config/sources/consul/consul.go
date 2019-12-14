@@ -7,8 +7,8 @@ import (
 	log "github.com/sirupsen/logrus"
 
 	"github.com/hashicorp/consul/api"
-	"github.com/signalfx/signalfx-agent/internal/core/config/types"
-	"github.com/signalfx/signalfx-agent/internal/utils"
+	"github.com/signalfx/signalfx-agent/pkg/core/config/types"
+	"github.com/signalfx/signalfx-agent/pkg/utils"
 )
 
 type consulConfigSource struct {

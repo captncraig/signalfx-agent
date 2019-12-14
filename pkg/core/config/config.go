@@ -14,11 +14,11 @@ import (
 
 	"github.com/mitchellh/hashstructure"
 	"github.com/pkg/errors"
-	"github.com/signalfx/signalfx-agent/internal/core/common/constants"
-	"github.com/signalfx/signalfx-agent/internal/core/config/sources"
-	"github.com/signalfx/signalfx-agent/internal/core/config/validation"
-	"github.com/signalfx/signalfx-agent/internal/utils"
-	"github.com/signalfx/signalfx-agent/internal/utils/hostfs"
+	"github.com/signalfx/signalfx-agent/pkg/core/common/constants"
+	"github.com/signalfx/signalfx-agent/pkg/core/config/sources"
+	"github.com/signalfx/signalfx-agent/pkg/core/config/validation"
+	"github.com/signalfx/signalfx-agent/pkg/utils"
+	"github.com/signalfx/signalfx-agent/pkg/utils/hostfs"
 	log "github.com/sirupsen/logrus"
 )
 

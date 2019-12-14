@@ -5,10 +5,10 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/signalfx/signalfx-agent/internal/core/common/constants"
-	"github.com/signalfx/signalfx-agent/internal/core/config"
-	"github.com/signalfx/signalfx-agent/internal/monitors/kubernetes/leadership"
-	"github.com/signalfx/signalfx-agent/internal/utils"
+	"github.com/signalfx/signalfx-agent/pkg/core/common/constants"
+	"github.com/signalfx/signalfx-agent/pkg/core/config"
+	"github.com/signalfx/signalfx-agent/pkg/monitors/kubernetes/leadership"
+	"github.com/signalfx/signalfx-agent/pkg/utils"
 )
 
 func (a *Agent) diagnosticTextHandler(rw http.ResponseWriter, req *http.Request) {

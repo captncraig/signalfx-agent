@@ -5,12 +5,12 @@ import (
 	"time"
 
 	"github.com/signalfx/golib/v3/event"
-	"github.com/signalfx/signalfx-agent/internal/core/common/kubernetes"
-	"github.com/signalfx/signalfx-agent/internal/core/config"
-	"github.com/signalfx/signalfx-agent/internal/monitors"
-	"github.com/signalfx/signalfx-agent/internal/monitors/kubernetes/leadership"
-	"github.com/signalfx/signalfx-agent/internal/monitors/types"
-	"github.com/signalfx/signalfx-agent/internal/utils"
+	"github.com/signalfx/signalfx-agent/pkg/core/common/kubernetes"
+	"github.com/signalfx/signalfx-agent/pkg/core/config"
+	"github.com/signalfx/signalfx-agent/pkg/monitors"
+	"github.com/signalfx/signalfx-agent/pkg/monitors/kubernetes/leadership"
+	"github.com/signalfx/signalfx-agent/pkg/monitors/types"
+	"github.com/signalfx/signalfx-agent/pkg/utils"
 
 	log "github.com/sirupsen/logrus"
 	v1 "k8s.io/api/core/v1"

@@ -6,10 +6,10 @@ import (
 	"context"
 	"time"
 
-	"github.com/signalfx/signalfx-agent/internal/monitors/telegraf/common/accumulator"
-	"github.com/signalfx/signalfx-agent/internal/monitors/telegraf/common/emitter/baseemitter"
-	"github.com/signalfx/signalfx-agent/internal/monitors/telegraf/monitors/winperfcounters"
-	"github.com/signalfx/signalfx-agent/internal/utils"
+	"github.com/signalfx/signalfx-agent/pkg/monitors/telegraf/common/accumulator"
+	"github.com/signalfx/signalfx-agent/pkg/monitors/telegraf/common/emitter/baseemitter"
+	"github.com/signalfx/signalfx-agent/pkg/monitors/telegraf/monitors/winperfcounters"
+	"github.com/signalfx/signalfx-agent/pkg/utils"
 	"github.com/sirupsen/logrus"
 )
 

@@ -1,6 +1,6 @@
 package postgresql
 
-import "github.com/signalfx/signalfx-agent/internal/monitors/sql"
+import "github.com/signalfx/signalfx-agent/pkg/monitors/sql"
 
 // Queries that get metrics about the entire server instance and do not need to
 // be run on a per-database basis.

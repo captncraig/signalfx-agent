@@ -2,7 +2,7 @@ package config
 
 import (
 	"github.com/signalfx/golib/v3/pointer"
-	"github.com/signalfx/signalfx-agent/internal/core/propfilters"
+	"github.com/signalfx/signalfx-agent/pkg/core/propfilters"
 )
 
 // PropertyFilterConfig describes a set of subtractive filters applied to properties
