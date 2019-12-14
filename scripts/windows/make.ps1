@@ -25,7 +25,7 @@ function versions_go() {
     }
     $date = Get-Date -UFormat "%Y-%m-%dT%T%Z"
 
-    $versionfile = "$repoDir\internal\core\common\constants\versions.go"
+    $versionfile = "$repoDir\pkg\core\common\constants\versions.go"
 
     cp "$versionfile.tmpl" "$versionfile"
     replace_text -filepath "$versionfile" -find '${COLLECTD_VERSION}' -replacement "$env:COLLECTD_VERSION"
@@ -34,7 +34,7 @@ function versions_go() {
 }
 
 function signalfx-agent([string]$AGENT_VERSION="", [string]$AGENT_BIN=".\signalfx-agent.exe", [string]$COLLECTD_VERSION="") {
-    Remove-Item -Recurse -Force "$repoDir\internal\monitors\*" -Include "genmetadata.go" -ErrorAction Ignore
+    Remove-Item -Recurse -Force "$repoDir\pkg\monitors\*" -Include "genmetadata.go" -ErrorAction Ignore
 
     go generate ./...
 
