@@ -31,7 +31,7 @@ func observersStructMetadata() ([]observerMetadata, error) {
 	// Set to track undocumented observers
 	obsTypesSeen := make(map[string]bool)
 
-	err := filepath.Walk("internal/observers", func(path string, info os.FileInfo, err error) error {
+	err := filepath.Walk("pkg/observers", func(path string, info os.FileInfo, err error) error {
 		if !info.IsDir() || err != nil {
 			return err
 		}
@@ -104,7 +104,7 @@ func dimensionsFromNotesAndServicesPackage(allDocs []*doc.Package) (map[string]D
 	containerDims := map[string]DimMetadata{}
 
 	if isContainerObserver(allDocs) {
-		servicesDocs, err := nestedPackageDocs("internal/core/services")
+		servicesDocs, err := nestedPackageDocs("pkg/core/services")
 		if err != nil {
 			return nil, err
 		}
@@ -133,7 +133,7 @@ func isContainerObserver(obsDocs []*doc.Package) bool {
 }
 
 func endpointVariables(obsDocs []*doc.Package) ([]endpointVar, error) {
-	servicesDocs, err := nestedPackageDocs("internal/core/services")
+	servicesDocs, err := nestedPackageDocs("pkg/core/services")
 	if err != nil {
 		return nil, err
 	}

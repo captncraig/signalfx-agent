@@ -33,7 +33,7 @@ func buildOutputPath(pkg *selfdescribe.PackageMetadata) string {
 }
 
 func generate(templateFile string) error {
-	pkgs, err := selfdescribe.CollectMetadata("internal/monitors")
+	pkgs, err := selfdescribe.CollectMetadata("pkg/monitors")
 
 	if err != nil {
 		return err

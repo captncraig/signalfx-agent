@@ -30,7 +30,7 @@ issues:
       linters:
         - gosec
 
-    - path: internal/monitors/kubernetes/cluster/metrics
+    - path: pkg/monitors/kubernetes/cluster/metrics
       linters:
         - goconst
 

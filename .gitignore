@@ -20,11 +20,11 @@
 /agent
 /collectd
 /debug
-/internal/core/common/constants/versions.go
-/internal/monitors/**/genmetadata.go
-/internal/monitors/**/template.go
-/internal/monitors/collectd/collectd.conf.go
-internal/monitors/zcodegen/monitorcodegen
+/pkg/core/common/constants/versions.go
+/pkg/monitors/**/genmetadata.go
+/pkg/monitors/**/template.go
+/pkg/monitors/collectd/collectd.conf.go
+pkg/monitors/zcodegen/monitorcodegen
 /packaging/*/output
 /signalfx-agent
 /vendor.orig/

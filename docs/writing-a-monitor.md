@@ -11,7 +11,7 @@ deal of added complexity and artifact size.  Therefore right now, new monitors
 must be compiled into the agent binary.
 
 First, create a new package within the `github.com/signalfx/signalfx-agent/pkg/monitors`
-package (or inside the `internal/monitors/collectd` package if creating a
+package (or inside the `pkg/monitors/collectd` package if creating a
 collectd wrapper monitor, see below for more on collectd monitors).  Inside
 that package create a single module named whatever you like that will hold the
 monitor code. If your monitor gets complicated, you can of course split it up

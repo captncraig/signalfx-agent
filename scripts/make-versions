@@ -9,7 +9,7 @@ set -euo pipefail
 
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-target_file=${1-"$SCRIPT_DIR/../internal/core/common/constants/versions.go"}
+target_file=${1-"$SCRIPT_DIR/../pkg/core/common/constants/versions.go"}
 
 AGENT_VERSION=${AGENT_VERSION-latest}
 COLLECTD_VERSION=${COLLECTD_VERSION-unknown}
